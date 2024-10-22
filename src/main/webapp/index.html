@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Home page</title>
+</head>
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background: linear-gradient(135deg, #ff7e5f, #feb47b);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .home-container {
+        background-color: #ffffff;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        width: 350px;
+        text-align: center;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .home-container:hover {
+        transform: scale(1.05);
+    }
+
+    h2 {
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    p {
+        color: #666;
+    }
+
+    button {
+        background-color: #ff7e5f;
+        color: white;
+        border: none;
+        padding: 15px;
+        margin: 10px 0;
+        cursor: pointer;
+        border-radius: 5px;
+        width: 100%;
+        font-size: 16px;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #feb47b;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+</style>
+
+
+</head>
+<body>
+    <div class="home-container">
+        <h2>Welcome</h2>
+        <p>Please select your user type:</p>
+        
+        
+          <!--  <button onclick="window.location.href='buyer-options.html';">Buyer</button>
+<button onclick="window.location.href='seller-options.html';">Seller</button>-->
+<button onclick="window.location.href='BuyerLogin.html';">Buyer</button>
+			<button onclick="window.location.href='SellerLogin.html';">Seller</button>
+    </div>
+</html>
